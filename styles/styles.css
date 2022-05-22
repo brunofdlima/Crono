@@ -1,0 +1,46 @@
+@import url('/node_modules/normalize.css/normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.cronoContainer {
+  text-align: center;
+
+  background-color: orange;
+
+  margin: 10rem auto;
+  height: 16.875rem;
+  width: 50rem;
+
+  border-radius: 1.25rem;
+}
+
+.tempo {
+  display: flex;
+
+  justify-content: center;
+}
+
+.crono {
+  font-size: 2.1875rem;
+}
+
+.botao {
+  margin-top: 3.125rem;
+  font-size: 1.25rem;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: white;
+  color: black;
+
+  width: 8.75rem;
+
+  transition: 0.5s;
+}
+
+.botao:hover {
+  cursor: pointer;
+  background-color: rgb(184, 180, 180);
+}
